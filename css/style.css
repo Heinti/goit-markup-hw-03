@@ -1,0 +1,275 @@
+:root {
+    /* fonts */
+--secondaty-font: 'Raleway', sans-serif;
+--main-font-: 'Roboto', sans-serif;
+
+/* text-colors */
+--primary-color: rgba(33, 33, 33, 1);
+--accent-color:  rgba(33, 150, 243, 1);
+--white-color:   #ffffff;
+--grey-color:    #757575;
+
+/* bg-colors */
+--white-bg-color:  #ffffff;
+--dark-bg-color:   #2F303A;
+--grey-bg-color:   #F5F4FA;
+--accent-bg-color: rgba(33, 150, 243, 1);
+--hero-brn-bg: #188CE8;
+/* others */
+
+}
+body{
+font-family: var(--main-font-);
+color: var(--primary-color);
+font-size: 14px;
+background-color: var(--white-bg-color);
+letter-spacing: 0.03em;
+} 
+/* common styles start */
+.link{
+    text-decoration: none;
+}
+.ul{
+    list-style: none;
+}
+/* common styles end */
+
+
+/* HEADER */
+.header{
+    background-color: var(--white-bg-color);
+}
+.header-nav .link{
+    color:var(--primary-color);
+}
+/* logo */
+.header-logo{
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+font-family: var(--secondaty-font);
+}
+
+.blue-logo{
+color:var(--accent-color);
+
+} 
+
+.header-list  .link.current{
+    color: var(--accent-color);
+}
+
+.header-list,
+.header-contacts{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+.header-list .link:hover,
+.header-list .link:focus{
+    color: var(--accent-color)
+}
+
+.header-contacts .link:hover,
+.header-contacts .link:focus{
+    color: var(--accent-color);
+}
+
+/* hero section */
+.hero{
+background-color: var(--dark-bg-color);
+}
+
+.hero-text{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--white-color);
+}
+
+.hero-btn{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: var(--accent-color);
+}
+.hero-btn:hover,
+.hero-btn:hover{
+background-color: var(--hero-brn-bg);
+cursor: pointer;
+}
+
+/* benefits */
+.benefits{
+    background-color: var(--white-bg-color);
+}
+
+.benefits .title{
+    visibility: hidden;;
+}
+.benefits-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.33;
+text-transform: uppercase;
+color: var(--primary-color);
+}
+
+.benefits-text{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+color: var(--grey-color);
+}
+
+/* what ARE WE DOING HERE DUDE PLZ HEPL */
+
+.working{
+
+background-color:var(--white-bg-color)
+}
+
+.working .title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+color: var(--primary-color);
+}
+
+
+/* oUR team */
+.our-team{
+background-color: var(--grey-bg-color);
+}
+.our-team .title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+color: var(--primary-color);
+}
+
+.team-name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+color: var(--primary-color);
+}
+
+.team-descr{
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+color: var(--grey-color);
+}
+
+
+
+/* ----------------- */
+
+/* 2ND PAGE- PORTFOLIO */
+
+/* ----------------- */
+
+.portfolio-section{
+    background-color: var(--white-bg-color);
+}
+
+.portfolio-section .title{
+    visibility: hidden;
+}
+
+.portfolio-btn{
+    color: var(--primary-color);
+    background-color: var(--grey-bg-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+    color: var(--white-color);
+    background-color:var(--accent-bg-color)
+}
+
+.gallery-item-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--primary-color);
+}
+
+.gallery-item-text{
+font-size: 16px;
+line-height: 1.88;
+color: var(--grey-color);
+}
+
+/* --------- */
+
+/* FOOTER */
+
+/* --------- */
+
+.footer{
+    background-color: var(--dark-bg-color);
+}
+
+.footer-link{
+font-family:var(--secondaty-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color: var(--white-color);
+}
+
+.address{
+color: var(--white-color);
+line-height: 1.71;
+font-style: normal;
+}
+
+.address-mail{
+color: rgba(255, 255, 255, 0.6);
+line-height: 1.71;
+font-style: normal;
+}
+
+.address-tel{
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.71;
+    font-style: normal; 
+}
+
+.address:hover,
+.address:focus{
+    cursor: pointer;
+    color: var(--accent-color);
+}
+
+.address-mail:hover,
+.address-mail:focus{
+    cursor: pointer;
+    color: var(--accent-color);
+}
+
+.address-tel:hover,
+.address-tel:focus{
+    cursor: pointer;
+    color: var(--accent-color);
+    }
