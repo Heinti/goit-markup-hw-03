@@ -57,7 +57,7 @@ padding: 0;
 }
 
 .container{
-     width: 1202px;    /*тут були борти 1піксель, тому довелось підлатати на колінці*/
+     width: 1200px;    /*тут були борти 1піксель, тому довелось підлатати на колінці*/
     padding-left: 15px ;
     padding-right: 15px;
     margin-left: auto;
@@ -97,6 +97,8 @@ padding: 0;
 }
 
 .header-contacts{
+    letter-spacing: 0.02em;
+
     display: flex;
     margin-left: auto;
 }
@@ -108,8 +110,8 @@ padding: 0;
     color:var(--primary-color);
 }
 
-.header-nav .tel{
-    color:var(--grey-color)
+.header-contacts .link{
+    color: var(--grey-color);
 }
 
 /* logo */
@@ -155,6 +157,9 @@ letter-spacing: 0.02em;
 .hero{
 background-color: var(--dark-bg-color);
 text-align: center;
+
+padding-top: 200px;
+padding-bottom: 200px;
 }
 
 .hero-text{
@@ -164,6 +169,10 @@ line-height: 1.36;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--white-color);
+
+width: 696px;
+margin: auto;
+margin-bottom: 30px;
 }
 
 .hero-btn{
@@ -172,7 +181,11 @@ font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.06em;
 color: #FFFFFF;
+
+border-radius: 4px;
 background-color: var(--accent-color);
+padding: 10px 32px;
+border: none;
 
 }
 .hero-btn:hover,
@@ -206,6 +219,7 @@ cursor: pointer;
 
 .benefits__item{
 width: 270px;
+
 }
 
 .benefits-title{
@@ -214,6 +228,8 @@ font-size: 14px;
 line-height: 1.33;
 text-transform: uppercase;
 color: var(--primary-color);
+
+margin-bottom: 10px;
 }
 
 
@@ -249,7 +265,7 @@ color: var(--primary-color);
 
 
 .work__img:not(:last-child){
-    padding-right: 30px;
+    margin-right: 30px;
 }
 
 
@@ -271,6 +287,14 @@ margin-bottom: 50px;
 
 .team-list{
     display: flex;
+}
+
+.team__item{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+    0px 1px 1px rgba(0, 0, 0, 0.14), 
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team__item:not(:last-child){
@@ -391,6 +415,8 @@ line-height: 2;
 letter-spacing: 0.06em;
 color: var(--primary-color);
 
+
+margin-bottom: 4px;
 }
 
 .gallery-item-text{
@@ -434,7 +460,7 @@ color: var(--white-color);
 line-height: 1.71;
 font-style: normal;
 
-padding-bottom: 9px;
+margin-bottom: 9px;
 }
 
 .address-mail{
@@ -443,7 +469,7 @@ line-height: 1.71;
 font-style: normal;
 
 display: block;
-padding-bottom: 9px;
+margin-bottom: 9px;
 }
 
 .address-tel{
